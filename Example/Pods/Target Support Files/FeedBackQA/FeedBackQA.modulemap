@@ -1,0 +1,6 @@
+framework module FeedBackQA {
+  umbrella header "FeedBackQA-umbrella.h"
+
+  export *
+  module * { export * }
+}
