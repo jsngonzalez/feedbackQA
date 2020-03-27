@@ -1,6 +1,0 @@
-framework module Pods_FeedBackQA_Tests {
-  umbrella header "Pods-FeedBackQA_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
