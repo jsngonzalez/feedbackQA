@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 extension UIViewController {
     
     static var topmostViewController: UIViewController? {
@@ -44,5 +45,8 @@ extension UIViewController {
         let image = UIGraphicsGetImageFromCurrentImageContext();
         return image!
     }
+    
+
+    
     
 }

@@ -9,15 +9,21 @@ import Foundation
 import UIKit
 
 open class FeedBack {
-    private (set) var token: String?
+    private (set) var appid: String?
     
-    public init(token: String) {
-        self.token = token
+    public init(appid: String) {
+        self.appid = appid
         self.listenForScreenshot()
     }
     
     private func listenForScreenshot() {
-        let name = NSNotification.Name.UIApplicationUserDidTakeScreenshot
+        
+        #if swift(<4.2)
+            let name = NSNotification.Name.UIApplicationUserDidTakeScreenshot
+        #else
+            let name = UIApplication.userDidTakeScreenshotNotification
+        #endif
+        
         
         NotificationCenter.default.addObserver(forName: name, object: nil, queue: OperationQueue.main) { notification in
             self.display(viewController: nil, shouldFetchScreenshot: true)
@@ -37,6 +43,9 @@ open class FeedBack {
         let controller = InicioFeeBack.getController()
         let screenshot = topmostViewController.screenshot()
         controller.imgScreenshot = screenshot
-        topmostViewController.present(controller, animated: true, completion: nil)
+        controller.appid = appid ?? ""
+        topmostViewController.present(controller, animated: true, completion: {
+          controller.presentationController?.presentedView?.gestureRecognizers?[0].isEnabled = false
+        })
     }
 }

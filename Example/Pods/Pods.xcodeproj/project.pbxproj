@@ -14,12 +14,15 @@
 		5936804832A6134C51AB5B5EAB15C477 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		746D68F3E123AD1748DEE0DBB582A835 /* FeedBackQA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5723A35C86F672DF333ED2C7B6ECECD /* FeedBackQA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		89499C6D33E77DDCF411F5AA1014ED28 /* Pods-FeedBackQA_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 526E030A041743770EF0A5203B6F5626 /* Pods-FeedBackQA_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEE98B2F242E76EB0055ED07 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B2E242E76EB0055ED07 /* BlinkingLabel.swift */; };
 		CEE98B33242E88E10055ED07 /* FeedBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B32242E88E10055ED07 /* FeedBack.swift */; };
-		CEE98B37242E8B0A0055ED07 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B36242E8B0A0055ED07 /* UIViewControllerExtension.swift */; };
+		CEE98B37242E8B0A0055ED07 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B36242E8B0A0055ED07 /* UIViewController.swift */; };
 		CEE98B3B242E8C5B0055ED07 /* MainFeedBack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE98B3A242E8C5B0055ED07 /* MainFeedBack.storyboard */; };
 		CEE98B3D242E8C920055ED07 /* InicioFeeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B3C242E8C920055ED07 /* InicioFeeBack.swift */; };
-		CEE98B3F242EAABC0055ED07 /* FeedBackAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE98B3E242EAABC0055ED07 /* FeedBackAsset.xcassets */; };
+		CEE98B43242EC1EF0055ED07 /* FeedBackAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */; };
+		CEE98B45242ECD2C0055ED07 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B44242ECD2C0055ED07 /* UIButton.swift */; };
+		CEE98B47242F06B60055ED07 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B46242F06B60055ED07 /* UIDevice.swift */; };
+		CEE98B4A242F07F70055ED07 /* BugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B49242F07F70055ED07 /* BugModel.swift */; };
+		CEE98B4C242F0A220055ED07 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B4B242F0A220055ED07 /* Date.swift */; };
 		F75E3CDCFD5DCB67238EEBE3C0F99A7B /* Pods-FeedBackQA_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 837DF7C40B05DE188EC68558EB3159A4 /* Pods-FeedBackQA_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F90AFB67D1FB307DFE219DC388ECA6E1 /* Pods-FeedBackQA_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2190B5D365B65763B7F5C00D89475E6D /* Pods-FeedBackQA_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -68,12 +71,15 @@
 		9E70B2FD212CCD02DBD94E79A7D6B874 /* Pods-FeedBackQA_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FeedBackQA_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A3215892B54EFD216B02510B3609CAE2 /* Pods-FeedBackQA_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FeedBackQA_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5723A35C86F672DF333ED2C7B6ECECD /* FeedBackQA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FeedBackQA-umbrella.h"; sourceTree = "<group>"; };
-		CEE98B2E242E76EB0055ED07 /* BlinkingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlinkingLabel.swift; path = FeedBackQA/Classes/BlinkingLabel.swift; sourceTree = "<group>"; };
 		CEE98B32242E88E10055ED07 /* FeedBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedBack.swift; path = FeedBackQA/Classes/FeedBack.swift; sourceTree = "<group>"; };
-		CEE98B36242E8B0A0055ED07 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		CEE98B36242E8B0A0055ED07 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CEE98B3A242E8C5B0055ED07 /* MainFeedBack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainFeedBack.storyboard; sourceTree = "<group>"; };
 		CEE98B3C242E8C920055ED07 /* InicioFeeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioFeeBack.swift; sourceTree = "<group>"; };
-		CEE98B3E242EAABC0055ED07 /* FeedBackAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FeedBackAsset.xcassets; sourceTree = "<group>"; };
+		CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FeedBackAsset.xcassets; path = FeedBackQA/Assets/FeedBackAsset.xcassets; sourceTree = "<group>"; };
+		CEE98B44242ECD2C0055ED07 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		CEE98B46242F06B60055ED07 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		CEE98B49242F07F70055ED07 /* BugModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugModel.swift; sourceTree = "<group>"; };
+		CEE98B4B242F0A220055ED07 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		D5224ED17E3074C82C758F61D48FF07C /* FeedBackQA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FeedBackQA.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F15712CF506EEFFE34A849D7D025B632 /* Pods_FeedBackQA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedBackQA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F242D217A9F6B64648301FE1FE52BB79 /* Pods-FeedBackQA_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FeedBackQA_Example.modulemap"; sourceTree = "<group>"; };
@@ -146,13 +152,12 @@
 		6E492F930011AE2F7B149CA7DC90AC9E /* FeedBackQA */ = {
 			isa = PBXGroup;
 			children = (
+				CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */,
 				CEE98B39242E8C0C0055ED07 /* Extensions */,
-				CEE98B38242E8BF20055ED07 /* Modules */,
-				CEE98B2E242E76EB0055ED07 /* BlinkingLabel.swift */,
+				CEE98B38242E8BF20055ED07 /* UX */,
 				CEE98B32242E88E10055ED07 /* FeedBack.swift */,
 				B9E05252604E0C2E4629484B4A199362 /* Pod */,
 				F2A5F0A33B7DC29164AA827BF2EED5AA /* Support Files */,
-				CEE98B3E242EAABC0055ED07 /* FeedBackAsset.xcassets */,
 			);
 			name = FeedBackQA;
 			path = ../..;
@@ -193,23 +198,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CEE98B38242E8BF20055ED07 /* Modules */ = {
+		CEE98B38242E8BF20055ED07 /* UX */ = {
 			isa = PBXGroup;
 			children = (
+				CEE98B48242F07E90055ED07 /* Model */,
 				CEE98B3A242E8C5B0055ED07 /* MainFeedBack.storyboard */,
 				CEE98B3C242E8C920055ED07 /* InicioFeeBack.swift */,
 			);
-			name = Modules;
-			path = FeedBackQA/Classes/Modules;
+			name = UX;
+			path = FeedBackQA/Classes/UX;
 			sourceTree = "<group>";
 		};
 		CEE98B39242E8C0C0055ED07 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				CEE98B36242E8B0A0055ED07 /* UIViewControllerExtension.swift */,
+				CEE98B36242E8B0A0055ED07 /* UIViewController.swift */,
+				CEE98B44242ECD2C0055ED07 /* UIButton.swift */,
+				CEE98B46242F06B60055ED07 /* UIDevice.swift */,
+				CEE98B4B242F0A220055ED07 /* Date.swift */,
 			);
 			name = Extensions;
 			path = FeedBackQA/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		CEE98B48242F07E90055ED07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEE98B49242F07F70055ED07 /* BugModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -377,7 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE98B3B242E8C5B0055ED07 /* MainFeedBack.storyboard in Resources */,
-				CEE98B3F242EAABC0055ED07 /* FeedBackAsset.xcassets in Resources */,
+				CEE98B43242EC1EF0055ED07 /* FeedBackAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,11 +435,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEE98B37242E8B0A0055ED07 /* UIViewControllerExtension.swift in Sources */,
+				CEE98B4A242F07F70055ED07 /* BugModel.swift in Sources */,
+				CEE98B37242E8B0A0055ED07 /* UIViewController.swift in Sources */,
 				CEE98B33242E88E10055ED07 /* FeedBack.swift in Sources */,
 				000B121DAFE65ECD84562F961F3E8DC0 /* FeedBackQA-dummy.m in Sources */,
 				CEE98B3D242E8C920055ED07 /* InicioFeeBack.swift in Sources */,
-				CEE98B2F242E76EB0055ED07 /* BlinkingLabel.swift in Sources */,
+				CEE98B45242ECD2C0055ED07 /* UIButton.swift in Sources */,
+				CEE98B4C242F0A220055ED07 /* Date.swift in Sources */,
+				CEE98B47242F06B60055ED07 /* UIDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,7 +556,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -601,7 +621,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

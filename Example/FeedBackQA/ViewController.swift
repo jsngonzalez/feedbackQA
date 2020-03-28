@@ -18,17 +18,21 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        FeedBack(token: "hola como vas")
+        _ = FeedBack(appid: "asdf1234")
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        #if swift(<4.2)
+            let name = NSNotification.Name.UIApplicationUserDidTakeScreenshot
+        #else
+            let name = UIApplication.userDidTakeScreenshotNotification
+        #endif
+        
+        NotificationCenter.default.post(name: name, object: nil)
     }
 
     @IBAction func hideShow(_ sender: Any) {
-        if btn.tag == 0 {
-            btn.tag = 1
-            viewExample.fadeOut()
-        }else{
-            btn.tag = 0
-            viewExample.fadeIn()
-        }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
