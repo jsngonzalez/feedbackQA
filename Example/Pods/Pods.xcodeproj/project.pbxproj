@@ -18,7 +18,6 @@
 		CEE98B37242E8B0A0055ED07 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B36242E8B0A0055ED07 /* UIViewController.swift */; };
 		CEE98B3B242E8C5B0055ED07 /* MainFeedBack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE98B3A242E8C5B0055ED07 /* MainFeedBack.storyboard */; };
 		CEE98B3D242E8C920055ED07 /* InicioFeeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B3C242E8C920055ED07 /* InicioFeeBack.swift */; };
-		CEE98B43242EC1EF0055ED07 /* FeedBackAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */; };
 		CEE98B45242ECD2C0055ED07 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B44242ECD2C0055ED07 /* UIButton.swift */; };
 		CEE98B47242F06B60055ED07 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B46242F06B60055ED07 /* UIDevice.swift */; };
 		CEE98B4A242F07F70055ED07 /* BugModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE98B49242F07F70055ED07 /* BugModel.swift */; };
@@ -75,7 +74,6 @@
 		CEE98B36242E8B0A0055ED07 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 		CEE98B3A242E8C5B0055ED07 /* MainFeedBack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainFeedBack.storyboard; sourceTree = "<group>"; };
 		CEE98B3C242E8C920055ED07 /* InicioFeeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioFeeBack.swift; sourceTree = "<group>"; };
-		CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = FeedBackAsset.xcassets; path = FeedBackQA/Assets/FeedBackAsset.xcassets; sourceTree = "<group>"; };
 		CEE98B44242ECD2C0055ED07 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		CEE98B46242F06B60055ED07 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		CEE98B49242F07F70055ED07 /* BugModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BugModel.swift; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 		6E492F930011AE2F7B149CA7DC90AC9E /* FeedBackQA */ = {
 			isa = PBXGroup;
 			children = (
-				CEE98B42242EC1EF0055ED07 /* FeedBackAsset.xcassets */,
 				CEE98B39242E8C0C0055ED07 /* Extensions */,
 				CEE98B38242E8BF20055ED07 /* UX */,
 				CEE98B32242E88E10055ED07 /* FeedBack.swift */,
@@ -394,7 +391,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE98B3B242E8C5B0055ED07 /* MainFeedBack.storyboard in Resources */,
-				CEE98B43242EC1EF0055ED07 /* FeedBackAsset.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

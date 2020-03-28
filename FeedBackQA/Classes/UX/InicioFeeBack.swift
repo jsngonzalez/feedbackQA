@@ -24,6 +24,7 @@ class InicioFeeBack: UIViewController {
     var vSpinner : UIView?
     var appid:String = ""
     var imgScreenshot:UIImage!
+    var imgMarco:UIImage!
     var bug: BugModel = BugModel(
         id: UUID().uuidString,
         modelo: UIDevice.modelName,
@@ -36,6 +37,9 @@ class InicioFeeBack: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         img1.image = imgScreenshot
+        img1.layer.cornerRadius = 5
+        img1.layer.borderColor = #colorLiteral(red: 0.1333333333, green: 0.1333333333, blue: 0.1333333333, alpha: 1)
+        img1.layer.borderWidth = 1
         
         initModel()
         initView()
