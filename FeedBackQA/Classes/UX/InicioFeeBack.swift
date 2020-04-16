@@ -23,6 +23,8 @@ class InicioFeeBack: UIViewController {
 
     var vSpinner : UIView?
     var appid:String = ""
+    var appversion:String = ""
+
     var imgScreenshot:UIImage!
     var imgMarco:UIImage!
     var bug: BugModel = BugModel(
@@ -74,7 +76,7 @@ class InicioFeeBack: UIViewController {
     }
     
     func initModel(){
-        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
+    
         let imageData:NSData = imgScreenshot.pngData()! as NSData
         let strBase64 = imageData.base64EncodedString(options: .lineLength64Characters)
         
@@ -82,7 +84,7 @@ class InicioFeeBack: UIViewController {
         let formatDate = Date.getFormattedDate(date: date, format: "yyyy-MM-dd HH:mm:ss")
 
         
-        bug.version = appVersion ?? "NN"
+        bug.version = appversion
         bug.foto = strBase64
         bug.fecha = formatDate
     }

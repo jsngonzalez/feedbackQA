@@ -10,11 +10,21 @@ import UIKit
 
 open class FeedBack {
     private (set) var appid: String?
+    private (set) var appversion: String?
     
     public init(appid: String) {
         self.appid = appid
+        self.appversion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
         self.listenForScreenshot()
     }
+    
+    public init(appid: String, andVersion version:String) {
+        self.appid = appid
+        self.appversion = version
+        
+        self.listenForScreenshot()
+    }
+    
     
     private func listenForScreenshot() {
         
@@ -44,6 +54,7 @@ open class FeedBack {
         let screenshot = topmostViewController.screenshot()
         controller.imgScreenshot = screenshot
         controller.appid = appid ?? ""
+        controller.appversion = appversion ?? ""
         topmostViewController.present(controller, animated: true, completion: {
           controller.presentationController?.presentedView?.gestureRecognizers?[0].isEnabled = false
         })
